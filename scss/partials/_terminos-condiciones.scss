@@ -1,0 +1,19 @@
+@import "../scss2/animaciones";
+@import "../scss2/mixins";
+@import "../scss2/variables";
+
+.body-terminos{
+    background-color: $color-azul;
+}
+.main-terminos{
+    width: 80%;
+    margin: auto;
+    h1{
+        margin-top: 200px;
+        text-align: center;
+    }
+    ol, ol li{
+    font-family: $font2;
+    text-transform: none;
+}
+}

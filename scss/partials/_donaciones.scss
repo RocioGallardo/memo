@@ -1,0 +1,93 @@
+@import "../scss2/animaciones";
+@import "../scss2/mixins";
+@import "../scss2/variables";
+
+
+.main-donaciones{
+    padding: 100px 0px 200px;
+    background-color: $color-azul;
+    h1{
+        width: 80%;
+        margin: auto;
+        @include textos ($color-amarillo, $font1, 80px, bold, center);
+        line-height:120px;
+        strong{
+            @include animacion (colores, 0.5s, 0s, infinite);
+        }
+    }
+    p{
+        width: 80%;
+        margin: 40px auto;
+        @include textos ($color-claro, $font2, 20px, bold, center);
+        text-transform: none;
+    }
+}
+.section-donaciones{
+    background-color: $color-claro;
+    border-radius: 30px;
+    margin: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-areas:
+    "h2 h2"
+    "h3-tr h3-mp"
+    "div-p div-mp";
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    @media screen and (max-width: 810px){
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "h2"
+        "h3-tr"
+        "div-p"
+        "h3-mp"
+        "div-mp";
+        row-gap: 20px;
+    }
+    h2{
+        margin: 20px;
+        @include textos ($color-amarillo, $font1, 80px, bold, center);
+        grid-area: h2;
+    }
+    .h3-tr{
+        margin: 50px;
+        @include textos ($color-azul, $font1, 20px, bold, center);
+        grid-area: h3-tr;
+        }
+    .div-p{
+        grid-area: div-p;
+        p{
+            text-align: center;
+            color: $color-naranja;
+        }
+    }
+    .h3-mp{
+        margin: 20px;
+        @include textos ($color-azul, $font1, 20px, bold, center);
+        grid-area: h3-mp;
+    }
+    .div-mp{
+        grid-area: div-mp;
+        @include flexbox (column, center, center, center, wrap);
+        .a-mp{
+            width: fit-content;
+            text-decoration: none;
+            color: $color-naranja;
+            text-align: center;
+        }
+        .imagen-mp{
+            width: 150px;
+            margin: 20px;
+    }
+    }    
+    }
+
+.section-gracias{
+    padding: 50px 0px;
+    background-color: $color-azul;
+    h3{
+        @include textos ($color-claro, $font1, 50px, normal, center);
+    }
+}

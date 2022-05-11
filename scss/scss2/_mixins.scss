@@ -1,0 +1,29 @@
+
+// @include flexbox ($direction, $justificado, $alineado, $alineado-items, $wrap);
+@mixin flexbox ($direction, $justificado, $alineado, $alineado-items, $wrap){
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justificado;
+    align-content: $alineado;
+    align-items: $alineado-items;
+    flex-wrap: $wrap;
+}
+
+
+// @include animacion ($name, $duration, $delay, $iteration-count);
+@mixin animacion ($name, $duration, $delay, $iteration-count){
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-delay: $delay;
+    animation-iteration-count: $iteration-count;
+}
+
+
+//  @include textos ($color, $family, $size, $weight, $align);
+@mixin textos ($color, $family, $size, $weight, $align){
+    color: $color;
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    text-align: $align;
+}

@@ -1,0 +1,71 @@
+@import "../scss2/animaciones";
+@import "../scss2/mixins";
+@import "../scss2/variables";
+
+
+
+
+.main-que-es{
+    padding: 100px 0px 200px;
+    background-color: $color-azul;
+    h1{
+        padding: 10px;
+        @include textos ($color-claro, $font1, 50px, normal, center);
+    }
+    p{
+        width: 80%;
+        margin: auto;
+        @include textos ($color-claro, $font2, 20px, normal, center);
+        text-transform: none;
+    }
+}
+
+.section-rutina{
+    width: 90%;
+    margin: 100px auto;
+    background-color: $color-amarillo;
+    border-radius: 30px;
+    @include flexbox (row, center, center, center, wrap);
+    .section-div-rutina{
+        width: 50%;
+        @include flexbox (column, center, center, center, wrap);
+        h2{
+            padding: 10px;
+            @include textos ($color-claro, $font1, 50px, normal, center);
+            strong{
+            color: $color-naranja;
+            border-radius: 20px;
+            }
+        }
+        p{
+            @include textos ($color-naranja, $font2, 20px, normal, center);
+            text-transform: none;
+        }
+    }
+}
+
+.section-comunicacion{
+    background-color: $color-naranja;
+    width: 90%;
+    margin: 100px auto;
+    border-radius: 30px;
+    @include flexbox (column, center, center, center, wrap);
+    h2{
+        padding:  50px 0px 20px;
+        @include textos ($color-claro, $font1, 50px, normal, center);
+        strong{
+        color: $color-amarillo;
+        border-radius: 20px;
+        }
+    }
+    p{
+        width: 80%;
+        margin: auto;
+        @include textos ($color-claro, $font2, 20px, normal, center);
+        text-transform: none;
+    }
+    img{
+        padding-top: 20px;
+        width: 50%;
+    }
+}

@@ -1,0 +1,1342 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@300&display=swap");
+@keyframes cambio-imagenes {
+  0% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  32% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  33% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  62% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  63% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  100% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; } }
+
+@keyframes checklist1 {
+  20% {
+    list-style-type: disc; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist2 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist3 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist4 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style: circle; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes rotar {
+  0% {
+    transform: rotateZ(5deg); }
+  50% {
+    transform: rotateZ(-5deg); }
+  100% {
+    transform: rotateZ(5deg); } }
+
+@keyframes colores {
+  0% {
+    color: #fff; }
+  50% {
+    color: #fff; }
+  61% {
+    color: #fff; }
+  100% {
+    color: #326be2; } }
+
+.input, .main-contacto .formulario-contacto .formulario-contacto-fieldset #nombre, .main-contacto .formulario-contacto .formulario-contacto-fieldset #email, .main-contacto .formulario-contacto .formulario-contacto-fieldset #telefono, .main-contacto .formulario-contacto .formulario-contacto-fieldset #mensaje {
+  background-color: #cac7f9;
+  border-radius: 20px;
+  border: none;
+  height: 40px; }
+
+.main-contacto {
+  background-color: #326be2; }
+  .main-contacto .titulo-contacto {
+    text-align: center; }
+  .main-contacto .formulario-contacto .formulario-contacto-fieldset {
+    width: 50%;
+    margin: 40px auto 100px;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 80px;
+    grid-template-areas: "label-nombre label-nombre" "nombre nombre" "label-email label-email" "email email" "label-telefono label-telefono" "telefono telefono" "label-mensaje label-mensaje" "mensaje mensaje" "none enviar";
+    gap: 10px; }
+    .main-contacto .formulario-contacto .formulario-contacto-fieldset .label-nombre {
+      grid-area: label-nombre; }
+    .main-contacto .formulario-contacto .formulario-contacto-fieldset .label-email {
+      grid-area: label-email; }
+    .main-contacto .formulario-contacto .formulario-contacto-fieldset .label-telefono {
+      grid-area: label-telefono; }
+    .main-contacto .formulario-contacto .formulario-contacto-fieldset .label-mensaje {
+      grid-area: label-mensaje; }
+    .main-contacto .formulario-contacto .formulario-contacto-fieldset label {
+      text-align: left;
+      padding-left: 10px; }
+    .main-contacto .formulario-contacto .formulario-contacto-fieldset #nombre {
+      grid-area: nombre; }
+    .main-contacto .formulario-contacto .formulario-contacto-fieldset #email {
+      grid-area: email; }
+    .main-contacto .formulario-contacto .formulario-contacto-fieldset #telefono {
+      grid-area: telefono; }
+    .main-contacto .formulario-contacto .formulario-contacto-fieldset #mensaje {
+      grid-area: mensaje;
+      height: 150px; }
+    .main-contacto .formulario-contacto .formulario-contacto-fieldset #enviar {
+      grid-area: enviar;
+      background-color: #eec144;
+      color: #326be2;
+      width: 80px;
+      height: 40px;
+      border: none;
+      border-radius: 20px; }
+
+@keyframes cambio-imagenes {
+  0% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  32% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  33% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  62% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  63% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  100% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; } }
+
+@keyframes checklist1 {
+  20% {
+    list-style-type: disc; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist2 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist3 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist4 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style: circle; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes rotar {
+  0% {
+    transform: rotateZ(5deg); }
+  50% {
+    transform: rotateZ(-5deg); }
+  100% {
+    transform: rotateZ(5deg); } }
+
+@keyframes colores {
+  0% {
+    color: #fff; }
+  50% {
+    color: #fff; }
+  61% {
+    color: #fff; }
+  100% {
+    color: #326be2; } }
+
+.main-donaciones {
+  padding: 100px 0px 200px;
+  background-color: #326be2; }
+  .main-donaciones h1 {
+    width: 80%;
+    margin: auto;
+    color: #eec144;
+    font-family: "Poppins";
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 120px; }
+    .main-donaciones h1 strong {
+      animation-name: colores;
+      animation-duration: 0.5s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite; }
+  .main-donaciones p {
+    width: 80%;
+    margin: 40px auto;
+    color: #fff;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: none; }
+
+.section-donaciones {
+  background-color: #fff;
+  border-radius: 30px;
+  margin: 50px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  grid-template-areas: "h2 h2" "h3-tr h3-mp" "div-p div-mp";
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center; }
+  @media screen and (max-width: 810px) {
+    .section-donaciones {
+      grid-template-columns: 1fr;
+      grid-template-areas: "h2" "h3-tr" "div-p" "h3-mp" "div-mp";
+      row-gap: 20px; } }
+  .section-donaciones h2 {
+    margin: 20px;
+    color: #eec144;
+    font-family: "Poppins";
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    grid-area: h2; }
+  .section-donaciones .h3-tr {
+    margin: 50px;
+    color: #326be2;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    grid-area: h3-tr; }
+  .section-donaciones .div-p {
+    grid-area: div-p; }
+    .section-donaciones .div-p p {
+      text-align: center;
+      color: #ff6600; }
+  .section-donaciones .h3-mp {
+    margin: 20px;
+    color: #326be2;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    grid-area: h3-mp; }
+  .section-donaciones .div-mp {
+    grid-area: div-mp;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .section-donaciones .div-mp .a-mp {
+      width: fit-content;
+      text-decoration: none;
+      color: #ff6600;
+      text-align: center; }
+    .section-donaciones .div-mp .imagen-mp {
+      width: 150px;
+      margin: 20px; }
+
+.section-gracias {
+  padding: 50px 0px;
+  background-color: #326be2; }
+  .section-gracias h3 {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center; }
+
+@keyframes cambio-imagenes {
+  0% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  32% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  33% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  62% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  63% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  100% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; } }
+
+@keyframes checklist1 {
+  20% {
+    list-style-type: disc; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist2 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist3 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist4 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style: circle; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes rotar {
+  0% {
+    transform: rotateZ(5deg); }
+  50% {
+    transform: rotateZ(-5deg); }
+  100% {
+    transform: rotateZ(5deg); } }
+
+@keyframes colores {
+  0% {
+    color: #fff; }
+  50% {
+    color: #fff; }
+  61% {
+    color: #fff; }
+  100% {
+    color: #326be2; } }
+
+.main-index {
+  padding: 50px 0px 200px;
+  width: 100%;
+  background-color: #326be2;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 750px) {
+    .main-index {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-wrap: wrap-reverse; } }
+  .main-index div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .main-index div h1 {
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 100px;
+      font-weight: bold;
+      text-align: center; }
+    .main-index div .boton {
+      background-color: #eec144;
+      padding: 0px;
+      border-radius: 30px;
+      transition: 0.2s; }
+      .main-index div .boton:hover {
+        background-color: #ff6600; }
+      .main-index div .boton a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center; }
+  .main-index img {
+    animation-name: rotar;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; }
+
+.section-aplicacion-digital, .section-somos, .section-como-ayudar {
+  width: 90%;
+  margin: 100px auto;
+  padding: 50px 0px;
+  background-color: #326be2;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 750px) {
+    .section-aplicacion-digital, .section-somos, .section-como-ayudar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-wrap: wrap; } }
+  .section-aplicacion-digital div, .section-somos div, .section-como-ayudar div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: normal;
+    flex-wrap: wrap; }
+    .section-aplicacion-digital div h2, .section-somos div h2, .section-como-ayudar div h2 {
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 75px;
+      font-weight: bold;
+      text-align: normal; }
+    .section-aplicacion-digital div .boton, .section-somos div .boton, .section-como-ayudar div .boton {
+      background-color: #ff6600;
+      margin: 20px auto;
+      padding: 0px;
+      border-radius: 30px;
+      transition: 0.2s; }
+      .section-aplicacion-digital div .boton:hover, .section-somos div .boton:hover, .section-como-ayudar div .boton:hover {
+        background-color: #cac7f9; }
+      .section-aplicacion-digital div .boton a, .section-somos div .boton a, .section-como-ayudar div .boton a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center; }
+        @media screen and (max-width: 900px) {
+          .section-aplicacion-digital div .boton a, .section-somos div .boton a, .section-como-ayudar div .boton a {
+            color: #fff;
+            font-family: "Poppins";
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center; } }
+
+.section-aplicacion-digital {
+  background-color: #ff6600; }
+  .section-aplicacion-digital ul li {
+    color: #fff;
+    font-family: "Quicksand";
+    font-size: 30px;
+    font-weight: bold;
+    text-align: normal; }
+    @media screen and (max-width: 750px) {
+      .section-aplicacion-digital ul li {
+        font-size: 20px; } }
+  .section-aplicacion-digital ul .li-1 {
+    animation-name: checklist1;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; }
+  .section-aplicacion-digital ul .li-2 {
+    animation-name: checklist2;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; }
+  .section-aplicacion-digital ul .li-3 {
+    animation-name: checklist3;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; }
+  .section-aplicacion-digital ul .li-4 {
+    animation-name: checklist4;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; }
+
+.animacion {
+  width: 400px;
+  height: 500px;
+  animation-name: cambio-imagenes;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite; }
+
+.section-somos {
+  background-color: #e6e6e6; }
+  .section-somos img {
+    animation-name: rotar;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; }
+  .section-somos .div-somos-info p {
+    color: #326be2;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: none; }
+    .section-somos .div-somos-info p strong {
+      font-weight: bolder; }
+
+.section-como-ayudar {
+  background-color: #eec144; }
+  .section-como-ayudar .div-como-ayudar h2 {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center; }
+  .section-como-ayudar img {
+    animation-name: rotar;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    border-radius: 50%; }
+  @media screen and (max-width: 900px) {
+    .section-como-ayudar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-wrap: nowrap; }
+      .section-como-ayudar .div-como-ayudar h2 {
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 30px;
+        font-weight: normal;
+        text-align: center; } }
+
+.section-formar-parte {
+  margin-top: 100px;
+  padding: 100px 0px;
+  background-color: #326be2; }
+  .section-formar-parte h3 {
+    width: 60%;
+    margin: 0px auto 30px;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center; }
+  .section-formar-parte .flex-botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .section-formar-parte .flex-botones .boton-amarillo {
+      margin: 10px auto;
+      padding: 10px;
+      background-color: #eec144;
+      border-radius: 30px;
+      transition: 0.2s; }
+      .section-formar-parte .flex-botones .boton-amarillo:hover {
+        background-color: #ff6600; }
+      .section-formar-parte .flex-botones .boton-amarillo a {
+        text-decoration: none;
+        font-size: 15px;
+        margin: auto;
+        color: #fff; }
+        .section-formar-parte .flex-botones .boton-amarillo a img {
+          margin-left: 20px;
+          width: 40px;
+          animation-name: rotar;
+          animation-duration: 1s;
+          animation-delay: 0s;
+          animation-iteration-count: infinite; }
+
+@keyframes cambio-imagenes {
+  0% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  32% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  33% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  62% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  63% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  100% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; } }
+
+@keyframes checklist1 {
+  20% {
+    list-style-type: disc; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist2 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist3 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist4 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style: circle; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes rotar {
+  0% {
+    transform: rotateZ(5deg); }
+  50% {
+    transform: rotateZ(-5deg); }
+  100% {
+    transform: rotateZ(5deg); } }
+
+@keyframes colores {
+  0% {
+    color: #fff; }
+  50% {
+    color: #fff; }
+  61% {
+    color: #fff; }
+  100% {
+    color: #326be2; } }
+
+.main-que-es {
+  padding: 100px 0px 200px;
+  background-color: #326be2; }
+  .main-que-es h1 {
+    padding: 10px;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center; }
+  .main-que-es p {
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: none; }
+
+.section-rutina {
+  width: 90%;
+  margin: 100px auto;
+  background-color: #eec144;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .section-rutina .section-div-rutina {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .section-rutina .section-div-rutina h2 {
+      padding: 10px;
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 50px;
+      font-weight: normal;
+      text-align: center; }
+      .section-rutina .section-div-rutina h2 strong {
+        color: #ff6600;
+        border-radius: 20px; }
+    .section-rutina .section-div-rutina p {
+      color: #ff6600;
+      font-family: "Quicksand";
+      font-size: 20px;
+      font-weight: normal;
+      text-align: center;
+      text-transform: none; }
+
+.section-comunicacion {
+  background-color: #ff6600;
+  width: 90%;
+  margin: 100px auto;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .section-comunicacion h2 {
+    padding: 50px 0px 20px;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center; }
+    .section-comunicacion h2 strong {
+      color: #eec144;
+      border-radius: 20px; }
+  .section-comunicacion p {
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: none; }
+  .section-comunicacion img {
+    padding-top: 20px;
+    width: 50%; }
+
+@keyframes cambio-imagenes {
+  0% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  32% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  33% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  62% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  63% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  100% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; } }
+
+@keyframes checklist1 {
+  20% {
+    list-style-type: disc; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist2 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist3 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist4 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style: circle; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes rotar {
+  0% {
+    transform: rotateZ(5deg); }
+  50% {
+    transform: rotateZ(-5deg); }
+  100% {
+    transform: rotateZ(5deg); } }
+
+@keyframes colores {
+  0% {
+    color: #fff; }
+  50% {
+    color: #fff; }
+  61% {
+    color: #fff; }
+  100% {
+    color: #326be2; } }
+
+.main-contacto {
+  padding: 100px 0px 100px;
+  background-color: #326be2; }
+  .main-contacto h1 {
+    text-align: center; }
+  .main-contacto p {
+    width: 80%;
+    margin: 50px auto 0px;
+    color: #fff;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: none; }
+
+.section-quienes-somos {
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  background-image: linear-gradient(180deg, #326be2 30%, #e6e6e6 30%); }
+  .section-quienes-somos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .section-quienes-somos div .foto-perfil {
+      margin: 20px 0px;
+      width: 250px;
+      border-radius: 50%;
+      border: 10px solid #e6e6e6;
+      animation-name: borde;
+      animation-duration: 1s;
+      animation-iteration-count: infinite; }
+    .section-quienes-somos div .apodo-li {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      align-items: baseline;
+      flex-wrap: wrap; }
+      .section-quienes-somos div .apodo-li p {
+        padding: 7px 40px;
+        background-color: #ff6600;
+        border-radius: 20px;
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase; }
+      .section-quienes-somos div .apodo-li a img {
+        margin-left: -30px;
+        width: 100px;
+        animation-name: rotar;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite; }
+    .section-quienes-somos div p {
+      color: #ff6600;
+      font-family: "Quicksand";
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      text-transform: none; }
+
+@keyframes cambio-imagenes {
+  0% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  32% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  33% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  62% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  63% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  100% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; } }
+
+@keyframes checklist1 {
+  20% {
+    list-style-type: disc; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist2 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist3 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist4 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style: circle; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes rotar {
+  0% {
+    transform: rotateZ(5deg); }
+  50% {
+    transform: rotateZ(-5deg); }
+  100% {
+    transform: rotateZ(5deg); } }
+
+@keyframes colores {
+  0% {
+    color: #fff; }
+  50% {
+    color: #fff; }
+  61% {
+    color: #fff; }
+  100% {
+    color: #326be2; } }
+
+.body-terminos {
+  background-color: #326be2; }
+
+.main-terminos {
+  width: 80%;
+  margin: auto; }
+  .main-terminos h1 {
+    margin-top: 200px;
+    text-align: center; }
+  .main-terminos ol, .main-terminos ol li {
+    font-family: "Quicksand";
+    text-transform: none; }
+
+@keyframes cambio-imagenes {
+  0% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  32% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  33% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  62% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  63% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  100% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; } }
+
+@keyframes checklist1 {
+  20% {
+    list-style-type: disc; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist2 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist3 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist4 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style: circle; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes rotar {
+  0% {
+    transform: rotateZ(5deg); }
+  50% {
+    transform: rotateZ(-5deg); }
+  100% {
+    transform: rotateZ(5deg); } }
+
+@keyframes colores {
+  0% {
+    color: #fff; }
+  50% {
+    color: #fff; }
+  61% {
+    color: #fff; }
+  100% {
+    color: #326be2; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  text-transform: uppercase; }
+
+body {
+  background-color: #e6e6e6;
+  color: #fff; }
+
+nav {
+  background-color: #326be2; }
+
+.li-nav {
+  margin: 0px 10px;
+  font-size: 15px; }
+
+.lila {
+  color: #cac7f9; }
+
+.redondeado {
+  border-radius: 50%; }
+
+footer {
+  width: 100%;
+  background-color: #326be2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap; }
+  @media screen and (max-width: 600px) {
+    footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-wrap: nowrap; } }
+  footer div a {
+    margin: 10px;
+    text-decoration: none;
+    text-transform: none;
+    font-family: "Quicksand";
+    color: #fff; }
+    footer div a img {
+      margin: 5px;
+      width: 30px; }
+
+@keyframes cambio-imagenes {
+  0% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  32% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  33% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  62% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  63% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  100% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; } }
+
+@keyframes checklist1 {
+  20% {
+    list-style-type: disc; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist2 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist3 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist4 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style: circle; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes rotar {
+  0% {
+    transform: rotateZ(5deg); }
+  50% {
+    transform: rotateZ(-5deg); }
+  100% {
+    transform: rotateZ(5deg); } }
+
+@keyframes colores {
+  0% {
+    color: #fff; }
+  50% {
+    color: #fff; }
+  61% {
+    color: #fff; }
+  100% {
+    color: #326be2; } }

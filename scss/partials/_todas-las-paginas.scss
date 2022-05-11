@@ -1,0 +1,53 @@
+@import "../scss2/animaciones";
+@import "../scss2/mixins";
+@import "../scss2/variables";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $font1;
+    text-transform: uppercase;
+}
+
+body{
+    background-color: $background-color;
+    color: $color-claro;
+}
+
+nav{
+    background-color: $color-azul;
+}
+
+.li-nav{
+    margin:0px 10px;
+    font-size: 15px;
+}
+
+.lila{
+    color: $color-lila;
+}
+
+.redondeado{
+    border-radius: 50%;
+}
+
+footer{
+    width: 100%;
+    background-color: $color-azul;
+    @include flexbox (row, space-between, center, center, nowrap);
+    @media screen and(max-width: 600px ){
+        @include flexbox (column, center, center, center, nowrap);
+    }
+    div a{
+        margin: 10px;
+        text-decoration: none;
+        text-transform: none;
+        font-family: $font2;
+        color: $color-claro;
+        img{
+            margin: 5px;
+            width: 30px;
+        }
+    }
+}

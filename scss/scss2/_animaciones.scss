@@ -1,0 +1,137 @@
+@import "./variables";
+
+@keyframes cambio-imagenes {
+    0% {
+        background-image: url(../assets/img/vista-dias.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    32%{
+        background-image: url(../assets/img/vista-dias.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    33%{
+        background-image: url(../assets/img/vista-categorias.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    62%{
+        background-image: url(../assets/img/vista-categorias.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    63%{
+        background-image: url(../assets/img/vista-higiene.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    100%{
+        background-image: url(../assets/img/vista-higiene.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
+
+
+@keyframes checklist1{
+    20%{
+        list-style-type: disc;
+    }
+    40%{
+        list-style-type: disc;
+    }
+    60%{
+        list-style-type: disc;
+    }
+    80%{
+        list-style-type: disc;
+    }
+    100%{
+        list-style: circle;
+    }
+
+}
+@keyframes checklist2{
+    20%{
+        list-style: circle;
+    }
+    40%{
+        list-style-type: disc;
+    }
+    60%{
+        list-style-type: disc;
+    }
+    80%{
+        list-style-type: disc;
+    }
+    100%{
+        list-style: circle;
+    }
+
+}
+@keyframes checklist3{
+    20%{
+        list-style: circle;
+    }
+    40%{
+        list-style: circle;
+    }
+    60%{
+        list-style-type: disc;
+    }
+    80%{
+        list-style-type: disc;
+    }
+    100%{
+        list-style: circle;
+    }
+
+}
+@keyframes checklist4 {
+    20%{
+        list-style: circle;
+    }
+    40%{
+        list-style: circle;
+    }
+    60%{
+        list-style: circle;
+    }
+    80%{
+        list-style-type: disc;
+    }
+    100%{
+        list-style: circle;
+    }
+
+}
+
+@keyframes rotar {
+    0%{
+        transform: rotateZ(5deg)
+    }
+    50%{
+        transform: rotateZ(-5deg);
+    }
+    100%{
+        transform: rotateZ(5deg);
+    }
+}
+
+
+@keyframes colores {
+    0%{
+        color: $color-claro;
+    }
+    50%{
+        color: $color-claro;
+    }
+    61%{
+        color: $color-claro;
+    }
+    100%{
+        color: $color-azul;
+    }
+}

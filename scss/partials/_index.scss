@@ -1,0 +1,169 @@
+@import "../scss2/animaciones";
+@import "../scss2/mixins";
+@import "../scss2/variables";
+
+.main-index{
+    padding: 50px 0px 200px;
+    width: 100%;
+    background-color: $color-azul;
+    @include flexbox (row-reverse, center, center, center, wrap);
+    @media screen and (max-width: 750px){
+        @include flexbox (column, center, center, center, wrap-reverse );
+    }
+    div{
+        width: 50%;
+        @include flexbox (column, center, center, center, wrap);
+        h1{
+            @include textos ($color-claro, $font1, 100px, bold, center);
+        }
+        .boton{
+            background-color: $color-amarillo;
+            padding: 0px;
+            border-radius: 30px;
+            transition: 0.2s;
+            &:hover{
+                background-color: $color-naranja;
+            }
+            a{
+                text-decoration: none;
+                @include textos ($color-claro, $font1, 30px, bold, center);
+            }
+        }
+    }
+    img{
+        @include animacion (rotar, 1s, 0s, infinite);
+    }
+}
+.section-aplicacion-digital, .section-somos, .section-como-ayudar{
+    width: 90%;
+    margin: 100px auto;
+    padding: 50px 0px;
+    background-color: $color-azul;
+    border-radius: 30px;
+    @include flexbox (row, center, center, center, wrap);
+    @media screen and (max-width: 750px){
+        @include flexbox (column, center, center, center, wrap);
+    }
+    div{
+        width: 50%;
+        @include flexbox (column, center, center, normal, wrap);
+        h2{
+            @include textos ($color-claro, $font1, 75px, bold, normal);
+        }
+        .boton{
+            background-color: $color-naranja;
+            margin: 20px auto;
+            padding: 0px;
+            border-radius: 30px;
+            transition: 0.2s;
+            &:hover{
+                background-color: $color-lila
+            }
+            
+            a{
+                text-decoration: none;
+                @include textos ($color-claro, $font1, 30px, bold, center);
+                @media screen and (max-width: 900px){
+                    @include textos ($color-claro, $font1, 20px, bold, center);
+                }
+            }
+        }
+    }
+}
+
+.section-aplicacion-digital{
+    background-color: $color-naranja;
+    ul {
+        li{
+            @include textos ($color-claro, $font2, 30px, bold, normal);
+            @media screen and (max-width: 750px){
+                font-size: 20px;
+            }
+        }
+        .li-1{
+            @include animacion (checklist1, 3s, 0s, infinite);
+        }
+        .li-2{
+            @include animacion (checklist2, 3s, 0s, infinite);
+        }
+        .li-3{
+            @include animacion (checklist3, 3s, 0s, infinite);
+        }
+        .li-4{
+            @include animacion (checklist4, 3s, 0s, infinite);
+        }
+    }
+}
+.animacion {
+    width: 400px;
+    height: 500px;
+    @include animacion (cambio-imagenes, 10s, 0s, infinite);
+}
+
+.section-somos{
+    background-color: $background-color;
+    img{
+        @include animacion (rotar, 1s, 0s, infinite);
+    }
+    .div-somos-info p{
+        @include textos ($color-azul, $font2, 20px, normal, center);
+        text-transform: none;
+        strong{
+            font-weight: bolder;
+        }
+    }
+}
+
+.section-como-ayudar{
+    background-color: $color-amarillo;
+    .div-como-ayudar h2{
+        @include textos ($color-claro, $font1, 50px, normal, center);
+    }
+    img{
+        @include animacion (rotar, 1s, 0s, infinite);
+        border-radius: 50%;
+    }
+    @media screen and (max-width: 900px ) {
+        @include flexbox (column, center, center, center, nowrap);
+        .div-como-ayudar h2{
+            @include textos ($color-claro, $font1, 30px, normal, center);
+        
+        }
+    }
+}
+
+
+.section-formar-parte{
+    margin-top: 100px;
+    padding: 100px 0px;
+    background-color: $color-azul;
+    h3{
+        width: 60%;
+        margin: 0px auto 30px;
+        @include textos ($color-claro, $font1, 50px, bold, center);
+    }
+    .flex-botones{
+        @include flexbox (column, center, center, center, wrap);
+        .boton-amarillo {
+            margin: 10px auto;
+            padding: 10px;
+            background-color: $color-amarillo;
+            border-radius: 30px;
+            transition: 0.2s;
+            &:hover{
+                background-color: $color-naranja;
+            }
+            a{
+                text-decoration: none;
+                font-size: 15px;
+                margin: auto;
+                color: $color-claro;
+                img{
+                    margin-left: 20px;
+                    width: 40px;
+                    @include animacion (rotar, 1s, 0s, infinite);
+                }
+            }
+        }
+    }
+}
