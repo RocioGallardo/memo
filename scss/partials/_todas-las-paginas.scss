@@ -35,9 +35,9 @@ nav{
 footer{
     width: 100%;
     background-color: $color-azul;
-    @include flexbox (row, space-between, center, center, nowrap);
+    @include flexbox (row, space-between, center, nowrap);
     @media screen and(max-width: 600px ){
-        @include flexbox (column, center, center, center, nowrap);
+        @include flexbox (column, center, center, nowrap);
     }
     div a{
         margin: 10px;

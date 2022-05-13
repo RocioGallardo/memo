@@ -70,7 +70,7 @@
     }
     .div-mp{
         grid-area: div-mp;
-        @include flexbox (column, center, center, center, wrap);
+        @include flexbox (column, center, center, wrap);
         .a-mp{
             width: fit-content;
             text-decoration: none;

@@ -307,7 +307,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     align-items: center;
     flex-wrap: wrap; }
     .section-donaciones .div-mp .a-mp {
@@ -423,12 +422,10 @@
 
 .main-index {
   padding: 50px 0px 200px;
-  width: 100%;
   background-color: #326be2;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: center;
-  align-content: center;
   align-items: center;
   flex-wrap: wrap; }
   @media screen and (max-width: 750px) {
@@ -436,131 +433,117 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-content: center;
       align-items: center;
-      flex-wrap: wrap-reverse; } }
+      flex-wrap: wrap-reverse;
+      padding: 50px 0px; } }
   .main-index div {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     align-items: center;
-    flex-wrap: wrap; }
+    flex-wrap: nowrap; }
     .main-index div h1 {
       color: #fff;
       font-family: "Poppins";
       font-size: 100px;
       font-weight: bold;
       text-align: center; }
+      @media screen and (max-width: 800px) {
+        .main-index div h1 {
+          font-size: 80px; } }
     .main-index div .boton {
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
       background-color: #eec144;
-      padding: 0px;
       border-radius: 30px;
-      transition: 0.2s; }
+      padding: 10px;
+      margin: 0px auto;
+      transition: 0.2s;
+      text-decoration: none;
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center; }
       .main-index div .boton:hover {
         background-color: #ff6600; }
-      .main-index div .boton a {
-        text-decoration: none;
-        color: #fff;
-        font-family: "Poppins";
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center; }
-  .main-index img {
-    animation-name: rotar;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite; }
+      @media screen and (max-width: 700px) {
+        .main-index div .boton {
+          font-size: 20px; } }
 
-.section-aplicacion-digital, .section-somos, .section-como-ayudar {
+.section-aplicacion {
+  background-color: #ff6600;
   width: 90%;
   margin: 100px auto;
   padding: 50px 0px;
-  background-color: #326be2;
   border-radius: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap; }
-  @media screen and (max-width: 750px) {
-    .section-aplicacion-digital, .section-somos, .section-como-ayudar {
+  flex-wrap: nowrap; }
+  @media screen and (max-width: 700px) {
+    .section-aplicacion {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-content: center;
       align-items: center;
-      flex-wrap: wrap; } }
-  .section-aplicacion-digital div, .section-somos div, .section-como-ayudar div {
-    width: 50%;
+      flex-wrap: nowrap;
+      margin: 20px auto; } }
+  .section-aplicacion .div-info {
+    width: 45%;
+    padding-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    align-items: normal;
-    flex-wrap: wrap; }
-    .section-aplicacion-digital div h2, .section-somos div h2, .section-como-ayudar div h2 {
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 45%; }
+    @media screen and (max-width: 700px) {
+      .section-aplicacion .div-info {
+        width: 70%; } }
+    .section-aplicacion .div-info h2 {
       color: #fff;
       font-family: "Poppins";
-      font-size: 75px;
+      font-size: 50px;
       font-weight: bold;
       text-align: normal; }
-    .section-aplicacion-digital div .boton, .section-somos div .boton, .section-como-ayudar div .boton {
-      background-color: #ff6600;
-      margin: 20px auto;
-      padding: 0px;
-      border-radius: 30px;
-      transition: 0.2s; }
-      .section-aplicacion-digital div .boton:hover, .section-somos div .boton:hover, .section-como-ayudar div .boton:hover {
-        background-color: #cac7f9; }
-      .section-aplicacion-digital div .boton a, .section-somos div .boton a, .section-como-ayudar div .boton a {
-        text-decoration: none;
-        color: #fff;
-        font-family: "Poppins";
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center; }
-        @media screen and (max-width: 900px) {
-          .section-aplicacion-digital div .boton a, .section-somos div .boton a, .section-como-ayudar div .boton a {
-            color: #fff;
-            font-family: "Poppins";
-            font-size: 20px;
-            font-weight: bold;
-            text-align: center; } }
-
-.section-aplicacion-digital {
-  background-color: #ff6600; }
-  .section-aplicacion-digital ul li {
-    color: #fff;
-    font-family: "Quicksand";
-    font-size: 30px;
-    font-weight: bold;
-    text-align: normal; }
-    @media screen and (max-width: 750px) {
-      .section-aplicacion-digital ul li {
-        font-size: 20px; } }
-  .section-aplicacion-digital ul .li-1 {
-    animation-name: checklist1;
-    animation-duration: 3s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite; }
-  .section-aplicacion-digital ul .li-2 {
-    animation-name: checklist2;
-    animation-duration: 3s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite; }
-  .section-aplicacion-digital ul .li-3 {
-    animation-name: checklist3;
-    animation-duration: 3s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite; }
-  .section-aplicacion-digital ul .li-4 {
-    animation-name: checklist4;
-    animation-duration: 3s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite; }
+      @media screen and (max-width: 800px) {
+        .section-aplicacion .div-info h2 {
+          font-size: 40px; } }
+    .section-aplicacion .div-info ul li {
+      color: #fff;
+      font-family: "Quicksand";
+      font-size: 30px;
+      font-weight: bold;
+      text-align: normal; }
+      @media screen and (max-width: 800px) {
+        .section-aplicacion .div-info ul li {
+          font-size: 20px; } }
+    .section-aplicacion .div-info ul .li-1 {
+      animation-name: checklist1;
+      animation-duration: 3s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite; }
+    .section-aplicacion .div-info ul .li-2 {
+      animation-name: checklist2;
+      animation-duration: 3s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite; }
+    .section-aplicacion .div-info ul .li-3 {
+      animation-name: checklist3;
+      animation-duration: 3s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite; }
+    .section-aplicacion .div-info ul .li-4 {
+      animation-name: checklist4;
+      animation-duration: 3s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite; }
 
 .animacion {
   width: 400px;
@@ -571,50 +554,148 @@
   animation-iteration-count: infinite; }
 
 .section-somos {
-  background-color: #e6e6e6; }
+  background-color: #e6e6e6;
+  width: 90%;
+  margin: 100px auto;
+  padding: 50px 0px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap; }
+  @media screen and (max-width: 700px) {
+    .section-somos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      margin: 20px auto; } }
   .section-somos img {
+    width: 25%;
     animation-name: rotar;
     animation-duration: 1s;
     animation-delay: 0s;
     animation-iteration-count: infinite; }
-  .section-somos .div-somos-info p {
-    color: #326be2;
-    font-family: "Quicksand";
-    font-size: 20px;
-    font-weight: normal;
-    text-align: center;
-    text-transform: none; }
-    .section-somos .div-somos-info p strong {
-      font-weight: bolder; }
+    @media screen and (max-width: 700px) {
+      .section-somos img {
+        width: 70%;
+        margin: 20px; } }
+  .section-somos .div-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; }
+    @media screen and (max-width: 700px) {
+      .section-somos .div-info {
+        width: 70%; } }
+    .section-somos .div-info p {
+      color: #326be2;
+      font-family: "Quicksand";
+      font-size: 20px;
+      font-weight: normal;
+      text-align: center;
+      text-transform: none; }
+      .section-somos .div-info p strong {
+        font-weight: bolder; }
+    .section-somos .div-info .boton {
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      background-color: #eec144;
+      border-radius: 30px;
+      padding: 10px;
+      margin: 0px auto;
+      transition: 0.2s;
+      text-decoration: none;
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center; }
+      .section-somos .div-info .boton:hover {
+        background-color: #ff6600; }
+      @media screen and (max-width: 700px) {
+        .section-somos .div-info .boton {
+          font-size: 20px; } }
 
 .section-como-ayudar {
-  background-color: #eec144; }
-  .section-como-ayudar .div-como-ayudar h2 {
-    color: #fff;
-    font-family: "Poppins";
-    font-size: 50px;
-    font-weight: normal;
-    text-align: center; }
+  background-color: #eec144;
+  width: 90%;
+  margin: 100px auto;
+  padding: 50px 0px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap; }
+  @media screen and (max-width: 700px) {
+    .section-como-ayudar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      margin: 20px auto; } }
+  .section-como-ayudar .div-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; }
+    @media screen and (max-width: 700px) {
+      .section-como-ayudar .div-info {
+        width: 70%; } }
+    .section-como-ayudar .div-info h2 {
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 50px;
+      font-weight: normal;
+      text-align: center; }
+      @media screen and (max-width: 800px) {
+        .section-como-ayudar .div-info h2 {
+          font-size: 40px; } }
+    .section-como-ayudar .div-info .boton {
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      background-color: #ff6600;
+      border-radius: 30px;
+      padding: 10px;
+      margin: 0px auto;
+      transition: 0.2s;
+      text-decoration: none;
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center; }
+      .section-como-ayudar .div-info .boton:hover {
+        background-color: #cac7f9; }
+      @media screen and (max-width: 700px) {
+        .section-como-ayudar .div-info .boton {
+          font-size: 20px; } }
   .section-como-ayudar img {
+    width: 25%;
+    margin: 10px;
     animation-name: rotar;
     animation-duration: 1s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     border-radius: 50%; }
-  @media screen and (max-width: 900px) {
-    .section-como-ayudar {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-      flex-wrap: nowrap; }
-      .section-como-ayudar .div-como-ayudar h2 {
-        color: #fff;
-        font-family: "Poppins";
-        font-size: 30px;
-        font-weight: normal;
-        text-align: center; } }
+    @media screen and (max-width: 700px) {
+      .section-como-ayudar img {
+        width: 70%;
+        margin: 20px; } }
 
 .section-formar-parte {
   margin-top: 100px;
@@ -622,39 +703,66 @@
   background-color: #326be2; }
   .section-formar-parte h3 {
     width: 60%;
-    margin: 0px auto 30px;
+    margin: auto;
     color: #fff;
     font-family: "Poppins";
     font-size: 50px;
     font-weight: bold;
     text-align: center; }
+    @media screen and (max-width: 800px) {
+      .section-formar-parte h3 {
+        width: 90%;
+        font-size: 30px; } }
   .section-formar-parte .flex-botones {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     align-items: center;
-    flex-wrap: wrap; }
-    .section-formar-parte .flex-botones .boton-amarillo {
-      margin: 10px auto;
-      padding: 10px;
+    flex-wrap: nowrap; }
+    .section-formar-parte .flex-botones .boton {
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
       background-color: #eec144;
       border-radius: 30px;
-      transition: 0.2s; }
-      .section-formar-parte .flex-botones .boton-amarillo:hover {
+      padding: 10px;
+      margin: 10px auto;
+      transition: 0.2s;
+      text-decoration: none;
+      color: #fff;
+      font-family: "Quicksand";
+      font-size: 15px;
+      font-weight: normal;
+      text-align: center;
+      padding: 10px 20px; }
+      .section-formar-parte .flex-botones .boton:hover {
         background-color: #ff6600; }
-      .section-formar-parte .flex-botones .boton-amarillo a {
-        text-decoration: none;
-        font-size: 15px;
-        margin: auto;
-        color: #fff; }
-        .section-formar-parte .flex-botones .boton-amarillo a img {
-          margin-left: 20px;
-          width: 40px;
-          animation-name: rotar;
-          animation-duration: 1s;
-          animation-delay: 0s;
-          animation-iteration-count: infinite; }
+      @media screen and (max-width: 700px) {
+        .section-formar-parte .flex-botones .boton {
+          font-size: 20px; } }
+      @media screen and (max-width: 500px) {
+        .section-formar-parte .flex-botones .boton {
+          font-size: 10px; } }
+      .section-formar-parte .flex-botones .boton img {
+        margin-left: 10px;
+        width: 40px;
+        animation-name: rotar;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite; }
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 80px;
+    color: black; }
+  h2 {
+    font-size: 50px; }
+  h3 {
+    font-size: 30px; }
+  .boton {
+    font-size: 10px; } }
 
 @keyframes cambio-imagenes {
   0% {
@@ -776,7 +884,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-content: center;
   align-items: center;
   flex-wrap: wrap; }
   .section-rutina .section-div-rutina {
@@ -784,7 +891,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     align-items: center;
     flex-wrap: wrap; }
     .section-rutina .section-div-rutina h2 {
@@ -813,7 +919,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
   align-items: center;
   flex-wrap: wrap; }
   .section-comunicacion h2 {
@@ -951,7 +1056,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-content: center;
   align-items: stretch;
   flex-wrap: wrap;
   background-image: linear-gradient(180deg, #326be2 30%, #e6e6e6 30%); }
@@ -959,7 +1063,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     align-items: center;
     flex-wrap: wrap; }
     .section-quienes-somos div .foto-perfil {
@@ -974,7 +1077,6 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
-      align-content: center;
       align-items: baseline;
       flex-wrap: wrap; }
       .section-quienes-somos div .apodo-li p {
@@ -1228,7 +1330,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: center;
   align-items: center;
   flex-wrap: nowrap; }
   @media screen and (max-width: 600px) {
@@ -1236,7 +1337,6 @@ footer {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-content: center;
       align-items: center;
       flex-wrap: nowrap; } }
   footer div a {
