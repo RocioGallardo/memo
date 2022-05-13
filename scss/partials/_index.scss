@@ -150,7 +150,7 @@
         @include flexbox (column, center, center, nowrap);
         .boton{
             @include boton ($color-amarillo, 10px auto, $color-naranja);
-            @include textos ($color-claro, $font2, 15px, normal, center);
+            @include textos ($color-claro, $font2, 15px, bold, center);
             padding: 10px 20px;
             @media screen and (max-width: 500px){
                 font-size: 10px;
