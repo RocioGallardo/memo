@@ -3,26 +3,23 @@
 @import "../scss2/variables";
 
 .main-index{
-    padding: 50px 0px 200px;
+    padding: 80px 0px;
     background-color: $color-azul;
     @include flexbox (row, center, center, wrap);
-    @media screen and (max-width: 750px){
-        @include flexbox (column, center,  center, wrap-reverse );
-        padding: 50px 0px;
-    }
     div{
-        width: 50%;
+        width: 45%;
         @include flexbox (column, center, center, nowrap);
         h1{
-            @include textos ($color-claro, $font1, 100px, bold, center);
-            @media screen and (max-width: 800px){
-                font-size: 80px;
-            }
+            @include textos ($color-claro, $font1, 6vw, bold, center);
+            white-space: pre-wrap
         }
         .boton{
             @include boton ($color-amarillo, 0px auto, $color-naranja);
-            @include textos ($color-claro, $font1, 30px, bold, center);
+            @include textos ($color-claro, $font1, 2vw, bold, center);
         }
+    }
+    img{
+        width: 35%;
     }
 }
 
@@ -32,22 +29,18 @@
         width: 45%;
         padding-left: 30px;
         @include flexbox (column, center, flex-start, nowrap);
-        width: 45%;
         @media screen and (max-width: 700px){
             width: 70%;
+            margin: auto;
+            padding: 0;
         }
         h2{
-            @include textos ($color-claro, $font1, 50px, bold, normal);
-            @media screen and (max-width: 800px){
-                font-size: 40px;
+            @include textos ($color-claro, $font1, 5vw, bold, normal);
             }
         }
         ul {
             li{
-                @include textos ($color-claro, $font2, 30px, bold, normal);
-                @media screen and (max-width: 800px){
-                    font-size: 20px;
-                }
+                @include textos ($color-claro, $font2, 2vw, bold, normal);
             }
             .li-1{
                 @include animacion (checklist1, 3s, 0s, infinite);
@@ -63,11 +56,16 @@
             }
         }
     }
-}
+
 .animacion {
-    width: 400px;
+    width: 40vw;
     height: 500px;
     @include animacion (cambio-imagenes, 10s, 0s, infinite);
+    @media screen and (max-width: 700px){
+        width: 70vw;
+        height: 500px;
+        margin: 20px 0px;
+    }
 }
 
 .section-somos{
@@ -87,7 +85,7 @@
         }
         @include flexbox (column, center, center, nowrap);
         p{
-            @include textos ($color-azul, $font2, 20px, normal, center);
+            @include textos ($color-azul, $font2, 2vw, normal, center);
             text-transform: none;
             strong{
                 font-weight: bolder;
@@ -95,7 +93,7 @@
         }
         .boton{
             @include boton ($color-amarillo, 0px auto, $color-naranja);
-            @include textos ($color-claro, $font1, 30px, bold, center);
+            @include textos ($color-claro, $font1, 2vw, bold, center);
         }
     }
 }
@@ -109,14 +107,11 @@
         }
         @include flexbox (column, center, center, nowrap);
         h2{
-            @include textos ($color-claro, $font1, 50px, normal, center);
-            @media screen and (max-width: 800px){
-                font-size: 40px;
-            }
+            @include textos ($color-claro, $font1, 4vw, normal, center);
         }
         .boton{
             @include boton ($color-naranja, 0px auto, $color-lila);
-            @include textos ($color-claro, $font1, 30px, bold, center);
+            @include textos ($color-claro, $font1, 2vw, bold, center);
         }
     }
     img{
@@ -140,21 +135,17 @@
     h3{
         width: 60%;
         margin: auto;
-        @include textos ($color-claro, $font1, 50px, bold, center);
+        @include textos ($color-claro, $font1, 4vw, bold, center);
         @media screen and (max-width: 800px){
             width: 90%;
-            font-size: 30px;
         }
     }
     .flex-botones{
         @include flexbox (column, center, center, nowrap);
         .boton{
             @include boton ($color-amarillo, 10px auto, $color-naranja);
-            @include textos ($color-claro, $font2, 15px, bold, center);
+            @include textos ($color-claro, $font2, 2vw, bold, center);
             padding: 10px 20px;
-            @media screen and (max-width: 500px){
-                font-size: 10px;
-            }
             img{
                     margin-left: 10px;
                     width: 40px;

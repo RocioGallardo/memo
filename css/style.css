@@ -238,10 +238,13 @@
     margin: auto;
     color: #eec144;
     font-family: "Poppins";
-    font-size: 80px;
+    font-size: 7vw;
     font-weight: bold;
     text-align: center;
     line-height: 120px; }
+    @media screen and (max-width: 700px) {
+      .main-donaciones h1 {
+        line-height: 60px; } }
     .main-donaciones h1 strong {
       animation-name: colores;
       animation-duration: 0.5s;
@@ -252,7 +255,7 @@
     margin: 40px auto;
     color: #fff;
     font-family: "Quicksand";
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: bold;
     text-align: center;
     text-transform: none; }
@@ -421,23 +424,15 @@
     color: #326be2; } }
 
 .main-index {
-  padding: 50px 0px 200px;
+  padding: 80px 0px;
   background-color: #326be2;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; }
-  @media screen and (max-width: 750px) {
-    .main-index {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap-reverse;
-      padding: 50px 0px; } }
   .main-index div {
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -446,12 +441,10 @@
     .main-index div h1 {
       color: #fff;
       font-family: "Poppins";
-      font-size: 100px;
+      font-size: 6vw;
       font-weight: bold;
-      text-align: center; }
-      @media screen and (max-width: 800px) {
-        .main-index div h1 {
-          font-size: 80px; } }
+      text-align: center;
+      white-space: pre-wrap; }
     .main-index div .boton {
       color: #fff;
       font-family: "Poppins";
@@ -466,18 +459,18 @@
       text-decoration: none;
       color: #fff;
       font-family: "Poppins";
-      font-size: 30px;
+      font-size: 2vw;
       font-weight: bold;
       text-align: center; }
       .main-index div .boton:hover {
         background-color: #ff6600; }
-      @media screen and (max-width: 700px) {
-        .main-index div .boton {
-          font-size: 20px; } }
+  .main-index img {
+    width: 35%; }
 
 .section-aplicacion {
   background-color: #ff6600;
   width: 90%;
+  height: fit-content;
   margin: 100px auto;
   padding: 50px 0px;
   border-radius: 30px;
@@ -492,8 +485,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      flex-wrap: nowrap;
-      margin: 20px auto; } }
+      flex-wrap: nowrap; } }
   .section-aplicacion .div-info {
     width: 45%;
     padding-left: 30px;
@@ -501,61 +493,62 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    flex-wrap: nowrap;
-    width: 45%; }
+    flex-wrap: nowrap; }
     @media screen and (max-width: 700px) {
       .section-aplicacion .div-info {
-        width: 70%; } }
+        width: 70%;
+        margin: auto;
+        padding: 0; } }
     .section-aplicacion .div-info h2 {
       color: #fff;
       font-family: "Poppins";
-      font-size: 50px;
+      font-size: 5vw;
       font-weight: bold;
       text-align: normal; }
-      @media screen and (max-width: 800px) {
-        .section-aplicacion .div-info h2 {
-          font-size: 40px; } }
-    .section-aplicacion .div-info ul li {
-      color: #fff;
-      font-family: "Quicksand";
-      font-size: 30px;
-      font-weight: bold;
-      text-align: normal; }
-      @media screen and (max-width: 800px) {
-        .section-aplicacion .div-info ul li {
-          font-size: 20px; } }
-    .section-aplicacion .div-info ul .li-1 {
-      animation-name: checklist1;
-      animation-duration: 3s;
-      animation-delay: 0s;
-      animation-iteration-count: infinite; }
-    .section-aplicacion .div-info ul .li-2 {
-      animation-name: checklist2;
-      animation-duration: 3s;
-      animation-delay: 0s;
-      animation-iteration-count: infinite; }
-    .section-aplicacion .div-info ul .li-3 {
-      animation-name: checklist3;
-      animation-duration: 3s;
-      animation-delay: 0s;
-      animation-iteration-count: infinite; }
-    .section-aplicacion .div-info ul .li-4 {
-      animation-name: checklist4;
-      animation-duration: 3s;
-      animation-delay: 0s;
-      animation-iteration-count: infinite; }
+  .section-aplicacion ul li {
+    color: #fff;
+    font-family: "Quicksand";
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: normal; }
+  .section-aplicacion ul .li-1 {
+    animation-name: checklist1;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; }
+  .section-aplicacion ul .li-2 {
+    animation-name: checklist2;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; }
+  .section-aplicacion ul .li-3 {
+    animation-name: checklist3;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; }
+  .section-aplicacion ul .li-4 {
+    animation-name: checklist4;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; }
 
 .animacion {
-  width: 400px;
+  width: 40vw;
   height: 500px;
   animation-name: cambio-imagenes;
   animation-duration: 10s;
   animation-delay: 0s;
   animation-iteration-count: infinite; }
+  @media screen and (max-width: 700px) {
+    .animacion {
+      width: 70vw;
+      height: 500px;
+      margin: 20px 0px; } }
 
 .section-somos {
   background-color: #e6e6e6;
   width: 90%;
+  height: fit-content;
   margin: 100px auto;
   padding: 50px 0px;
   border-radius: 30px;
@@ -570,8 +563,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      flex-wrap: nowrap;
-      margin: 20px auto; } }
+      flex-wrap: nowrap; } }
   .section-somos img {
     width: 25%;
     animation-name: rotar;
@@ -595,7 +587,7 @@
     .section-somos .div-info p {
       color: #326be2;
       font-family: "Quicksand";
-      font-size: 20px;
+      font-size: 2vw;
       font-weight: normal;
       text-align: center;
       text-transform: none; }
@@ -615,18 +607,16 @@
       text-decoration: none;
       color: #fff;
       font-family: "Poppins";
-      font-size: 30px;
+      font-size: 2vw;
       font-weight: bold;
       text-align: center; }
       .section-somos .div-info .boton:hover {
         background-color: #ff6600; }
-      @media screen and (max-width: 700px) {
-        .section-somos .div-info .boton {
-          font-size: 20px; } }
 
 .section-como-ayudar {
   background-color: #eec144;
   width: 90%;
+  height: fit-content;
   margin: 100px auto;
   padding: 50px 0px;
   border-radius: 30px;
@@ -641,8 +631,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      flex-wrap: nowrap;
-      margin: 20px auto; } }
+      flex-wrap: nowrap; } }
   .section-como-ayudar .div-info {
     width: 45%;
     display: flex;
@@ -656,12 +645,9 @@
     .section-como-ayudar .div-info h2 {
       color: #fff;
       font-family: "Poppins";
-      font-size: 50px;
+      font-size: 4vw;
       font-weight: normal;
       text-align: center; }
-      @media screen and (max-width: 800px) {
-        .section-como-ayudar .div-info h2 {
-          font-size: 40px; } }
     .section-como-ayudar .div-info .boton {
       color: #fff;
       font-family: "Poppins";
@@ -676,14 +662,11 @@
       text-decoration: none;
       color: #fff;
       font-family: "Poppins";
-      font-size: 30px;
+      font-size: 2vw;
       font-weight: bold;
       text-align: center; }
       .section-como-ayudar .div-info .boton:hover {
         background-color: #cac7f9; }
-      @media screen and (max-width: 700px) {
-        .section-como-ayudar .div-info .boton {
-          font-size: 20px; } }
   .section-como-ayudar img {
     width: 25%;
     margin: 10px;
@@ -706,13 +689,12 @@
     margin: auto;
     color: #fff;
     font-family: "Poppins";
-    font-size: 50px;
+    font-size: 4vw;
     font-weight: bold;
     text-align: center; }
     @media screen and (max-width: 800px) {
       .section-formar-parte h3 {
-        width: 90%;
-        font-size: 30px; } }
+        width: 90%; } }
   .section-formar-parte .flex-botones {
     display: flex;
     flex-direction: column;
@@ -733,18 +715,12 @@
       text-decoration: none;
       color: #fff;
       font-family: "Quicksand";
-      font-size: 15px;
+      font-size: 2vw;
       font-weight: bold;
       text-align: center;
       padding: 10px 20px; }
       .section-formar-parte .flex-botones .boton:hover {
         background-color: #ff6600; }
-      @media screen and (max-width: 700px) {
-        .section-formar-parte .flex-botones .boton {
-          font-size: 20px; } }
-      @media screen and (max-width: 500px) {
-        .section-formar-parte .flex-botones .boton {
-          font-size: 10px; } }
       .section-formar-parte .flex-botones .boton img {
         margin-left: 10px;
         width: 40px;
@@ -855,6 +831,9 @@
     font-size: 50px;
     font-weight: normal;
     text-align: center; }
+    @media screen and (max-width: 700px) {
+      .main-que-es h1 {
+        font-size: 7vh; } }
   .main-que-es p {
     width: 80%;
     margin: auto;
@@ -864,6 +843,9 @@
     font-weight: normal;
     text-align: center;
     text-transform: none; }
+    @media screen and (max-width: 700px) {
+      .main-que-es p {
+        font-size: 3vw; } }
 
 .section-rutina {
   width: 90%;
@@ -882,6 +864,9 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; }
+    @media screen and (max-width: 700px) {
+      .section-rutina .section-div-rutina {
+        width: 80%; } }
     .section-rutina .section-div-rutina h2 {
       padding: 10px;
       color: #fff;
@@ -932,6 +917,9 @@
   .section-comunicacion img {
     padding-top: 20px;
     width: 50%; }
+    @media screen and (max-width: 700px) {
+      .section-comunicacion img {
+        width: 80%; } }
 
 @keyframes cambio-imagenes {
   0% {

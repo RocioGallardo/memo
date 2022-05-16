@@ -43,9 +43,9 @@
     &:hover{
         background-color: $color-hover;
     }
-    @media screen and (max-width: 700px){
-        font-size: 20px;
-    }
+    // @media screen and (max-width: 700px){
+    //     font-size: 20px;
+    // }
 }
 
 
@@ -53,12 +53,12 @@
 @mixin section-index ($background){
     background-color: $background;
     width: 90%;
+    height: fit-content;
     margin: 100px auto;
     padding: 50px 0px;
     border-radius: 30px;
     @include flexbox (row, space-around, center, nowrap);
     @media screen and (max-width: 700px){
         @include flexbox (column, center, center, nowrap);
-        margin: 20px auto;
     }
 }

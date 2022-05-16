@@ -11,11 +11,17 @@
     h1{
         padding: 10px;
         @include textos ($color-claro, $font1, 50px, normal, center);
+        @media screen and (max-width: 700px) {
+            font-size: 7vh;;
+        }
     }
     p{
         width: 80%;
         margin: auto;
         @include textos ($color-claro, $font2, 20px, normal, center);
+        @media screen and (max-width: 700px) {
+            font-size: 3vw;;
+        }
         text-transform: none;
     }
 }
@@ -28,6 +34,9 @@
     @include flexbox (row, center, center, wrap);
     .section-div-rutina{
         width: 50%;
+        @media screen and (max-width: 700px) {
+            width: 80%;
+        }
         @include flexbox (column, center, center, wrap);
         h2{
             padding: 10px;
@@ -67,5 +76,8 @@
     img{
         padding-top: 20px;
         width: 50%;
+        @media screen and (max-width: 700px) {
+            width: 80%;
+        }
     }
 }

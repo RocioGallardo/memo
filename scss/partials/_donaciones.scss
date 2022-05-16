@@ -9,8 +9,11 @@
     h1{
         width: 80%;
         margin: auto;
-        @include textos ($color-amarillo, $font1, 80px, bold, center);
+        @include textos ($color-amarillo, $font1, 7vw, bold, center);
         line-height:120px;
+        @media screen and (max-width: 700px){
+            line-height: 60px;
+        }
         strong{
             @include animacion (colores, 0.5s, 0s, infinite);
         }
@@ -18,7 +21,7 @@
     p{
         width: 80%;
         margin: 40px auto;
-        @include textos ($color-claro, $font2, 20px, bold, center);
+        @include textos ($color-claro, $font2, 2vw, bold, center);
         text-transform: none;
     }
 }
