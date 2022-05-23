@@ -26,6 +26,8 @@
     background-position: center; } }
 
 @keyframes checklist1 {
+  0% {
+    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -38,6 +40,8 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -50,6 +54,8 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -62,6 +68,8 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -165,6 +173,8 @@
     background-position: center; } }
 
 @keyframes checklist1 {
+  0% {
+    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -177,6 +187,8 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -189,6 +201,8 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -201,6 +215,8 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -358,6 +374,8 @@
     background-position: center; } }
 
 @keyframes checklist1 {
+  0% {
+    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -370,6 +388,8 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -382,6 +402,8 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -394,6 +416,8 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -513,22 +537,22 @@
     text-align: normal; }
   .section-aplicacion ul .li-1 {
     animation-name: checklist1;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: infinite; }
   .section-aplicacion ul .li-2 {
     animation-name: checklist2;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: infinite; }
   .section-aplicacion ul .li-3 {
     animation-name: checklist3;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: infinite; }
   .section-aplicacion ul .li-4 {
     animation-name: checklist4;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: infinite; }
 
@@ -756,6 +780,8 @@
     background-position: center; } }
 
 @keyframes checklist1 {
+  0% {
+    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -768,6 +794,8 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -780,6 +808,8 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -792,6 +822,8 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -948,6 +980,8 @@
     background-position: center; } }
 
 @keyframes checklist1 {
+  0% {
+    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -960,6 +994,8 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -972,6 +1008,8 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -984,6 +1022,8 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1108,6 +1148,8 @@
     background-position: center; } }
 
 @keyframes checklist1 {
+  0% {
+    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -1120,6 +1162,8 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1132,6 +1176,8 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1144,6 +1190,8 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1213,6 +1261,8 @@
     background-position: center; } }
 
 @keyframes checklist1 {
+  0% {
+    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -1225,6 +1275,8 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1237,6 +1289,8 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1249,6 +1303,8 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1353,6 +1409,8 @@ footer {
     background-position: center; } }
 
 @keyframes checklist1 {
+  0% {
+    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -1365,6 +1423,8 @@ footer {
     list-style: circle; } }
 
 @keyframes checklist2 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1377,6 +1437,8 @@ footer {
     list-style: circle; } }
 
 @keyframes checklist3 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1389,6 +1451,8 @@ footer {
     list-style: circle; } }
 
 @keyframes checklist4 {
+  0% {
+    list-style: circle; }
   20% {
     list-style: circle; }
   40% {

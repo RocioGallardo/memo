@@ -43,16 +43,16 @@
                 @include textos ($color-claro, $font2, 2vw, bold, normal);
             }
             .li-1{
-                @include animacion (checklist1, 3s, 0s, infinite);
+                @include animacion (checklist1, 4s, 0s, infinite);
             }
             .li-2{
-                @include animacion (checklist2, 3s, 0s, infinite);
+                @include animacion (checklist2, 4s, 0s, infinite);
             }
             .li-3{
-                @include animacion (checklist3, 3s, 0s, infinite);
+                @include animacion (checklist3, 4s, 0s, infinite);
             }
             .li-4{
-                @include animacion (checklist4, 3s, 0s, infinite);
+                @include animacion (checklist4, 4s, 0s, infinite);
             }
         }
     }
