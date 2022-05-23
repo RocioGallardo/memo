@@ -22,7 +22,7 @@
     p{
         width: 80%;
         margin: 40px auto;
-        @include textos ($color-claro, $font2, 2vw, bold, center);
+        @include textos ($color-claro, $font2, 20px, bold, center);
         text-transform: none;
     }
 }

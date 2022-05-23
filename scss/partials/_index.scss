@@ -15,9 +15,6 @@
         .boton{
             @include boton ($color-amarillo, 0px auto, $color-naranja);
             @include textos ($color-claro, $font1, 20px, bold, center);
-            // @media screen and (max-width: 400px){
-            //     font-size: 3vw;
-            // }
         }
     }
     .div-imagen-index{
@@ -110,9 +107,6 @@
         .boton{
             @include boton ($color-amarillo, 0px auto, $color-naranja);
             @include textos ($color-claro, $font1, 20px, bold, center);
-            // @media screen and (max-width: 400px){
-            //     font-size: 3vw;
-            // }
         }
     }
 }
@@ -132,9 +126,6 @@
         .boton{
             @include boton ($color-naranja, 0px auto, $color-lila);
             @include textos ($color-claro, $font1, 20px, bold, center);
-            // @media screen and (max-width: 400px){
-            //     font-size: 3vw;
-            // }
         }
     }
     img{
@@ -168,9 +159,6 @@
         .boton{
             @include boton ($color-amarillo, 10px auto, $color-naranja);
             @include textos ($color-claro, $font2, 20px, bold, center);
-            // @media screen and (max-width: 400px){
-            //     font-size: 3vw;
-            // }
             text-transform: none;
             padding: 10px 20px;
             img{

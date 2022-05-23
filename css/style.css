@@ -227,6 +227,10 @@
       flex-wrap: nowrap; } }
   .main-contacto .flex-contacto .formulario-contacto {
     width: 50%; }
+    @media screen and (max-width: 700px) {
+      .main-contacto .flex-contacto .formulario-contacto {
+        width: 100%;
+        margin-bottom: 20px; } }
     .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset {
       border: none;
       display: grid;
@@ -388,7 +392,7 @@
     margin: 40px auto;
     color: #fff;
     font-family: "Quicksand";
-    font-size: 2vw;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     text-transform: none; }
@@ -989,9 +993,6 @@
     font-weight: normal;
     text-align: center;
     text-transform: none; }
-    @media screen and (max-width: 700px) {
-      .main-que-es p {
-        font-size: 3vw; } }
 
 .section-rutina {
   width: 90%;
