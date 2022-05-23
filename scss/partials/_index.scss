@@ -14,7 +14,10 @@
         }
         .boton{
             @include boton ($color-amarillo, 0px auto, $color-naranja);
-            @include textos ($color-claro, $font1, 2vw, bold, center);
+            @include textos ($color-claro, $font1, 20px, bold, center);
+            // @media screen and (max-width: 400px){
+            //     font-size: 3vw;
+            // }
         }
     }
     .div-imagen-index{
@@ -46,7 +49,10 @@
         ul {
             li{
                 list-style: circle;
-                @include textos ($color-claro, $font2, 2vw, bold, normal);
+                @include textos ($color-claro, $font2, 20px, bold, normal);
+                @media screen and (max-width: 400px){
+                    font-size: 3vw;
+                }
             }
             .li-1{
                 list-style: circle;
@@ -95,7 +101,7 @@
         }
         @include flexbox (column, center, center, nowrap);
         p{
-            @include textos ($color-azul, $font2, 2vw, normal, center);
+            @include textos ($color-azul, $font2, 20px, normal, center);
             text-transform: none;
             strong{
                 font-weight: bolder;
@@ -103,7 +109,10 @@
         }
         .boton{
             @include boton ($color-amarillo, 0px auto, $color-naranja);
-            @include textos ($color-claro, $font1, 2vw, bold, center);
+            @include textos ($color-claro, $font1, 20px, bold, center);
+            // @media screen and (max-width: 400px){
+            //     font-size: 3vw;
+            // }
         }
     }
 }
@@ -122,7 +131,10 @@
         }
         .boton{
             @include boton ($color-naranja, 0px auto, $color-lila);
-            @include textos ($color-claro, $font1, 2vw, bold, center);
+            @include textos ($color-claro, $font1, 20px, bold, center);
+            // @media screen and (max-width: 400px){
+            //     font-size: 3vw;
+            // }
         }
     }
     img{
@@ -155,7 +167,10 @@
         @include flexbox (column, center, center, nowrap);
         .boton{
             @include boton ($color-amarillo, 10px auto, $color-naranja);
-            @include textos ($color-claro, $font2, 2vw, bold, center);
+            @include textos ($color-claro, $font2, 20px, bold, center);
+            // @media screen and (max-width: 400px){
+            //     font-size: 3vw;
+            // }
             text-transform: none;
             padding: 10px 20px;
             img{

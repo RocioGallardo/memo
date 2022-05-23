@@ -591,7 +591,7 @@
       text-decoration: none;
       color: #fff;
       font-family: "Poppins";
-      font-size: 2vw;
+      font-size: 20px;
       font-weight: bold;
       text-align: center; }
       .main-index .div-titulo-index .boton:hover {
@@ -649,9 +649,12 @@
     list-style: circle;
     color: #fff;
     font-family: "Quicksand";
-    font-size: 2vw;
+    font-size: 20px;
     font-weight: bold;
     text-align: normal; }
+    @media screen and (max-width: 400px) {
+      .section-aplicacion ul li {
+        font-size: 3vw; } }
   .section-aplicacion ul .li-1 {
     list-style: circle;
     animation-name: checklist1;
@@ -732,7 +735,7 @@
     .section-somos .div-info p {
       color: #326be2;
       font-family: "Quicksand";
-      font-size: 2vw;
+      font-size: 20px;
       font-weight: normal;
       text-align: center;
       text-transform: none; }
@@ -752,7 +755,7 @@
       text-decoration: none;
       color: #fff;
       font-family: "Poppins";
-      font-size: 2vw;
+      font-size: 20px;
       font-weight: bold;
       text-align: center; }
       .section-somos .div-info .boton:hover {
@@ -808,7 +811,7 @@
       text-decoration: none;
       color: #fff;
       font-family: "Poppins";
-      font-size: 2vw;
+      font-size: 20px;
       font-weight: bold;
       text-align: center; }
       .section-como-ayudar .div-info .boton:hover {
@@ -861,7 +864,7 @@
       text-decoration: none;
       color: #fff;
       font-family: "Quicksand";
-      font-size: 2vw;
+      font-size: 20px;
       font-weight: bold;
       text-align: center;
       text-transform: none;
@@ -971,7 +974,7 @@
     padding: 10px;
     color: #fff;
     font-family: "Poppins";
-    font-size: 50px;
+    font-size: 6vw;
     font-weight: normal;
     text-align: center; }
     @media screen and (max-width: 700px) {
@@ -999,7 +1002,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap-reverse; }
   .section-rutina .section-div-rutina {
     width: 50%;
     display: flex;
@@ -1014,7 +1017,7 @@
       padding: 10px;
       color: #fff;
       font-family: "Poppins";
-      font-size: 50px;
+      font-size: 5vw;
       font-weight: normal;
       text-align: center; }
       .section-rutina .section-div-rutina h2 strong {
@@ -1042,7 +1045,7 @@
     padding: 50px 0px 20px;
     color: #fff;
     font-family: "Poppins";
-    font-size: 50px;
+    font-size: 5vw;
     font-weight: normal;
     text-align: center; }
     .section-comunicacion h2 strong {

@@ -10,7 +10,7 @@
     background-color: $color-azul;
     h1{
         padding: 10px;
-        @include textos ($color-claro, $font1, 50px, normal, center);
+        @include textos ($color-claro, $font1, 6vw, normal, center);
         @media screen and (max-width: 700px) {
             font-size: 7vh;;
         }
@@ -31,7 +31,7 @@
     margin: 100px auto;
     background-color: $color-amarillo;
     border-radius: 30px;
-    @include flexbox (row, center, center, wrap);
+    @include flexbox (row, center, center, wrap-reverse);
     .section-div-rutina{
         width: 50%;
         @media screen and (max-width: 700px) {
@@ -40,7 +40,7 @@
         @include flexbox (column, center, center, wrap);
         h2{
             padding: 10px;
-            @include textos ($color-claro, $font1, 50px, normal, center);
+            @include textos ($color-claro, $font1, 5vw, normal, center);
             strong{
             color: $color-naranja;
             border-radius: 20px;
@@ -61,7 +61,7 @@
     @include flexbox (column, center, center, wrap);
     h2{
         padding:  50px 0px 20px;
-        @include textos ($color-claro, $font1, 50px, normal, center);
+        @include textos ($color-claro, $font1, 5vw, normal, center);
         strong{
         color: $color-amarillo;
         border-radius: 20px;
