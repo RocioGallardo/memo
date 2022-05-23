@@ -4,18 +4,19 @@
 
 
 .main-donaciones{
-    padding: 100px 0px 200px;
+    padding: 100px 0px ;
     background-color: $color-azul;
     h1{
         width: 80%;
         margin: auto;
         @include textos ($color-amarillo, $font1, 7vw, bold, center);
         line-height:120px;
+        white-space: pre-wrap;
         @media screen and (max-width: 700px){
             line-height: 60px;
         }
         strong{
-            @include animacion (colores, 0.5s, 0s, infinite);
+            @include animacion (colores, 1s, 0s, infinite);
         }
     }
     p{
@@ -51,7 +52,7 @@
     }
     h2{
         margin: 20px;
-        @include textos ($color-amarillo, $font1, 80px, bold, center);
+        @include textos ($color-amarillo, $font1, 7vw, bold, center);
         grid-area: h2;
     }
     .h3-tr{
@@ -88,9 +89,9 @@
     }
 
 .section-gracias{
-    padding: 50px 0px;
+    padding: 70px 0px;
     background-color: $color-azul;
     h3{
-        @include textos ($color-claro, $font1, 50px, normal, center);
+        @include textos ($color-claro, $font1, 5vw, normal, center);
     }
 }

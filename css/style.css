@@ -26,8 +26,6 @@
     background-position: center; } }
 
 @keyframes checklist1 {
-  0% {
-    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -40,8 +38,6 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -54,8 +50,6 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -68,8 +62,6 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -99,52 +91,184 @@
   100% {
     color: #326be2; } }
 
-.input, .main-contacto .formulario-contacto .formulario-contacto-fieldset #nombre, .main-contacto .formulario-contacto .formulario-contacto-fieldset #email, .main-contacto .formulario-contacto .formulario-contacto-fieldset #telefono, .main-contacto .formulario-contacto .formulario-contacto-fieldset #mensaje {
-  background-color: #cac7f9;
-  border-radius: 20px;
-  border: none;
-  height: 40px; }
+@keyframes cambio-imagenes {
+  0% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  32% {
+    background-image: url(../assets/img/vista-dias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  33% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  62% {
+    background-image: url(../assets/img/vista-categorias.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  63% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  100% {
+    background-image: url(../assets/img/vista-higiene.png);
+    background-repeat: no-repeat;
+    background-position: center; } }
 
-.main-contacto {
-  background-color: #326be2; }
-  .main-contacto .titulo-contacto {
-    text-align: center; }
-  .main-contacto .formulario-contacto .formulario-contacto-fieldset {
-    width: 50%;
-    margin: 40px auto 100px;
-    border: none;
-    display: grid;
-    grid-template-columns: 1fr 80px;
-    grid-template-areas: "label-nombre label-nombre" "nombre nombre" "label-email label-email" "email email" "label-telefono label-telefono" "telefono telefono" "label-mensaje label-mensaje" "mensaje mensaje" "none enviar";
-    gap: 10px; }
-    .main-contacto .formulario-contacto .formulario-contacto-fieldset .label-nombre {
-      grid-area: label-nombre; }
-    .main-contacto .formulario-contacto .formulario-contacto-fieldset .label-email {
-      grid-area: label-email; }
-    .main-contacto .formulario-contacto .formulario-contacto-fieldset .label-telefono {
-      grid-area: label-telefono; }
-    .main-contacto .formulario-contacto .formulario-contacto-fieldset .label-mensaje {
-      grid-area: label-mensaje; }
-    .main-contacto .formulario-contacto .formulario-contacto-fieldset label {
-      text-align: left;
-      padding-left: 10px; }
-    .main-contacto .formulario-contacto .formulario-contacto-fieldset #nombre {
-      grid-area: nombre; }
-    .main-contacto .formulario-contacto .formulario-contacto-fieldset #email {
-      grid-area: email; }
-    .main-contacto .formulario-contacto .formulario-contacto-fieldset #telefono {
-      grid-area: telefono; }
-    .main-contacto .formulario-contacto .formulario-contacto-fieldset #mensaje {
-      grid-area: mensaje;
-      height: 150px; }
-    .main-contacto .formulario-contacto .formulario-contacto-fieldset #enviar {
-      grid-area: enviar;
-      background-color: #eec144;
-      color: #326be2;
-      width: 80px;
-      height: 40px;
+@keyframes checklist1 {
+  20% {
+    list-style-type: disc; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist2 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style-type: disc; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist3 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style-type: disc; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes checklist4 {
+  20% {
+    list-style: circle; }
+  40% {
+    list-style: circle; }
+  60% {
+    list-style: circle; }
+  80% {
+    list-style-type: disc; }
+  100% {
+    list-style: circle; } }
+
+@keyframes rotar {
+  0% {
+    transform: rotateZ(5deg); }
+  50% {
+    transform: rotateZ(-5deg); }
+  100% {
+    transform: rotateZ(5deg); } }
+
+@keyframes colores {
+  0% {
+    color: #fff; }
+  50% {
+    color: #fff; }
+  61% {
+    color: #fff; }
+  100% {
+    color: #326be2; } }
+
+.input, .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset #nombre, .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset #email, .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset #telefono, .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset #mensaje {
+  padding: 10px;
+  height: 40px;
+  color: #ff6600;
+  background-color: #eec144;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  text-transform: none;
+  color: #ff6600;
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left; }
+
+.main-contacto .titulo-contacto {
+  margin: 100px;
+  color: #326be2;
+  font-family: "Poppins";
+  font-size: 6vw;
+  font-weight: bold;
+  text-align: center; }
+
+.main-contacto .flex-contacto {
+  background-color: #e6e6e6;
+  width: 90%;
+  height: fit-content;
+  margin: 100px auto;
+  padding: 50px 0px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap; }
+  @media screen and (max-width: 700px) {
+    .main-contacto .flex-contacto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap; } }
+  .main-contacto .flex-contacto .formulario-contacto {
+    width: 50%; }
+    .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset {
       border: none;
-      border-radius: 20px; }
+      display: grid;
+      grid-template-columns: 1fr 80px;
+      grid-template-areas: "label-nombre label-nombre" "nombre nombre" "label-email label-email" "email email" "label-telefono label-telefono" "telefono telefono" "label-mensaje label-mensaje" "mensaje mensaje" "none enviar";
+      gap: 5px; }
+      .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset .label-nombre {
+        grid-area: label-nombre; }
+      .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset .label-email {
+        grid-area: label-email; }
+      .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset .label-telefono {
+        grid-area: label-telefono; }
+      .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset .label-mensaje {
+        grid-area: label-mensaje; }
+      .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset label {
+        text-align: left;
+        padding-left: 10px;
+        color: #326be2;
+        font-family: "Poppins";
+        font-size: 15px;
+        font-weight: normal;
+        text-align: left; }
+      .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset #nombre {
+        grid-area: nombre; }
+      .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset #email {
+        grid-area: email; }
+      .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset #telefono {
+        grid-area: telefono; }
+      .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset #mensaje {
+        grid-area: mensaje;
+        height: 150px; }
+      .main-contacto .flex-contacto .formulario-contacto .formulario-contacto-fieldset #enviar {
+        grid-area: enviar;
+        background-color: #ff6600;
+        color: #fff;
+        margin: 10px;
+        width: 80px;
+        height: 40px;
+        border: none;
+        border-radius: 20px; }
+  .main-contacto .flex-contacto .imagen-form {
+    width: 200px; }
 
 @keyframes cambio-imagenes {
   0% {
@@ -173,8 +297,6 @@
     background-position: center; } }
 
 @keyframes checklist1 {
-  0% {
-    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -187,8 +309,6 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -201,8 +321,6 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -215,8 +333,6 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -247,7 +363,7 @@
     color: #326be2; } }
 
 .main-donaciones {
-  padding: 100px 0px 200px;
+  padding: 100px 0px;
   background-color: #326be2; }
   .main-donaciones h1 {
     width: 80%;
@@ -257,13 +373,14 @@
     font-size: 7vw;
     font-weight: bold;
     text-align: center;
-    line-height: 120px; }
+    line-height: 120px;
+    white-space: pre-wrap; }
     @media screen and (max-width: 700px) {
       .main-donaciones h1 {
         line-height: 60px; } }
     .main-donaciones h1 strong {
       animation-name: colores;
-      animation-duration: 0.5s;
+      animation-duration: 1s;
       animation-delay: 0s;
       animation-iteration-count: infinite; }
   .main-donaciones p {
@@ -296,7 +413,7 @@
     margin: 20px;
     color: #eec144;
     font-family: "Poppins";
-    font-size: 80px;
+    font-size: 7vw;
     font-weight: bold;
     text-align: center;
     grid-area: h2; }
@@ -338,12 +455,12 @@
       margin: 20px; }
 
 .section-gracias {
-  padding: 50px 0px;
+  padding: 70px 0px;
   background-color: #326be2; }
   .section-gracias h3 {
     color: #fff;
     font-family: "Poppins";
-    font-size: 50px;
+    font-size: 5vw;
     font-weight: normal;
     text-align: center; }
 
@@ -374,8 +491,6 @@
     background-position: center; } }
 
 @keyframes checklist1 {
-  0% {
-    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -388,8 +503,6 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -402,8 +515,6 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -416,8 +527,6 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -452,24 +561,23 @@
   background-color: #326be2;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap; }
-  .main-index div {
-    width: 45%;
+  .main-index .div-titulo-index {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap; }
-    .main-index div h1 {
+    .main-index .div-titulo-index h1 {
       color: #fff;
       font-family: "Poppins";
       font-size: 6vw;
       font-weight: bold;
       text-align: center;
       white-space: pre-wrap; }
-    .main-index div .boton {
+    .main-index .div-titulo-index .boton {
       color: #fff;
       font-family: "Poppins";
       font-size: 30px;
@@ -486,10 +594,13 @@
       font-size: 2vw;
       font-weight: bold;
       text-align: center; }
-      .main-index div .boton:hover {
+      .main-index .div-titulo-index .boton:hover {
         background-color: #ff6600; }
-  .main-index img {
-    width: 35%; }
+  .main-index .div-imagen-index {
+    width: 20%; }
+    .main-index .div-imagen-index img {
+      width: 100%;
+      margin: auto; }
 
 .section-aplicacion {
   background-color: #ff6600;
@@ -522,7 +633,12 @@
       .section-aplicacion .div-info {
         width: 70%;
         margin: auto;
-        padding: 0; } }
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap; } }
     .section-aplicacion .div-info h2 {
       color: #fff;
       font-family: "Poppins";
@@ -530,27 +646,32 @@
       font-weight: bold;
       text-align: normal; }
   .section-aplicacion ul li {
+    list-style: circle;
     color: #fff;
     font-family: "Quicksand";
     font-size: 2vw;
     font-weight: bold;
     text-align: normal; }
   .section-aplicacion ul .li-1 {
+    list-style: circle;
     animation-name: checklist1;
     animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: infinite; }
   .section-aplicacion ul .li-2 {
+    list-style: circle;
     animation-name: checklist2;
     animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: infinite; }
   .section-aplicacion ul .li-3 {
+    list-style: circle;
     animation-name: checklist3;
     animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: infinite; }
   .section-aplicacion ul .li-4 {
+    list-style: circle;
     animation-name: checklist4;
     animation-duration: 4s;
     animation-delay: 0s;
@@ -671,7 +792,8 @@
       font-family: "Poppins";
       font-size: 4vw;
       font-weight: normal;
-      text-align: center; }
+      text-align: center;
+      white-space: pre-wrap; }
     .section-como-ayudar .div-info .boton {
       color: #fff;
       font-family: "Poppins";
@@ -742,16 +864,13 @@
       font-size: 2vw;
       font-weight: bold;
       text-align: center;
+      text-transform: none;
       padding: 10px 20px; }
       .section-formar-parte .flex-botones .boton:hover {
         background-color: #ff6600; }
       .section-formar-parte .flex-botones .boton img {
         margin-left: 10px;
-        width: 40px;
-        animation-name: rotar;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: infinite; }
+        width: 30px; }
 
 @keyframes cambio-imagenes {
   0% {
@@ -780,8 +899,6 @@
     background-position: center; } }
 
 @keyframes checklist1 {
-  0% {
-    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -794,8 +911,6 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -808,8 +923,6 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -822,8 +935,6 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -980,8 +1091,6 @@
     background-position: center; } }
 
 @keyframes checklist1 {
-  0% {
-    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -994,8 +1103,6 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1008,8 +1115,6 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1022,8 +1127,6 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1053,12 +1156,12 @@
   100% {
     color: #326be2; } }
 
-.main-contacto {
+.main-quienes {
   padding: 100px 0px 100px;
   background-color: #326be2; }
-  .main-contacto h1 {
+  .main-quienes h1 {
     text-align: center; }
-  .main-contacto p {
+  .main-quienes p {
     width: 80%;
     margin: 50px auto 0px;
     color: #fff;
@@ -1148,8 +1251,6 @@
     background-position: center; } }
 
 @keyframes checklist1 {
-  0% {
-    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -1162,8 +1263,6 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1176,8 +1275,6 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1190,8 +1287,6 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1261,8 +1356,6 @@
     background-position: center; } }
 
 @keyframes checklist1 {
-  0% {
-    list-style: circle; }
   20% {
     list-style-type: disc; }
   40% {
@@ -1275,8 +1368,6 @@
     list-style: circle; } }
 
 @keyframes checklist2 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1289,8 +1380,6 @@
     list-style: circle; } }
 
 @keyframes checklist3 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1303,8 +1392,6 @@
     list-style: circle; } }
 
 @keyframes checklist4 {
-  0% {
-    list-style: circle; }
   20% {
     list-style: circle; }
   40% {
@@ -1381,103 +1468,3 @@ footer {
     footer div a img {
       margin: 5px;
       width: 30px; }
-
-@keyframes cambio-imagenes {
-  0% {
-    background-image: url(../assets/img/vista-dias.png);
-    background-repeat: no-repeat;
-    background-position: center; }
-  32% {
-    background-image: url(../assets/img/vista-dias.png);
-    background-repeat: no-repeat;
-    background-position: center; }
-  33% {
-    background-image: url(../assets/img/vista-categorias.png);
-    background-repeat: no-repeat;
-    background-position: center; }
-  62% {
-    background-image: url(../assets/img/vista-categorias.png);
-    background-repeat: no-repeat;
-    background-position: center; }
-  63% {
-    background-image: url(../assets/img/vista-higiene.png);
-    background-repeat: no-repeat;
-    background-position: center; }
-  100% {
-    background-image: url(../assets/img/vista-higiene.png);
-    background-repeat: no-repeat;
-    background-position: center; } }
-
-@keyframes checklist1 {
-  0% {
-    list-style: circle; }
-  20% {
-    list-style-type: disc; }
-  40% {
-    list-style-type: disc; }
-  60% {
-    list-style-type: disc; }
-  80% {
-    list-style-type: disc; }
-  100% {
-    list-style: circle; } }
-
-@keyframes checklist2 {
-  0% {
-    list-style: circle; }
-  20% {
-    list-style: circle; }
-  40% {
-    list-style-type: disc; }
-  60% {
-    list-style-type: disc; }
-  80% {
-    list-style-type: disc; }
-  100% {
-    list-style: circle; } }
-
-@keyframes checklist3 {
-  0% {
-    list-style: circle; }
-  20% {
-    list-style: circle; }
-  40% {
-    list-style: circle; }
-  60% {
-    list-style-type: disc; }
-  80% {
-    list-style-type: disc; }
-  100% {
-    list-style: circle; } }
-
-@keyframes checklist4 {
-  0% {
-    list-style: circle; }
-  20% {
-    list-style: circle; }
-  40% {
-    list-style: circle; }
-  60% {
-    list-style: circle; }
-  80% {
-    list-style-type: disc; }
-  100% {
-    list-style: circle; } }
-
-@keyframes rotar {
-  0% {
-    transform: rotateZ(5deg); }
-  50% {
-    transform: rotateZ(-5deg); }
-  100% {
-    transform: rotateZ(5deg); } }
-
-@keyframes colores {
-  0% {
-    color: #fff; }
-  50% {
-    color: #fff; }
-  61% {
-    color: #fff; }
-  100% {
-    color: #326be2; } }
