@@ -44,7 +44,7 @@
             }
         }
         p{
-            @include textos ($color-naranja, $font2, 20px, normal, center);
+            @include textos ($color-claro, $font2, 20px, normal, center);
             text-transform: none;
         }
     }
