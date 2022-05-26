@@ -29,7 +29,12 @@ nav{
 }
 
 .redondeado{
+    width: 70px;
     border-radius: 50%;
+}
+
+#toggler-foco:focus{
+box-shadow: none;
 }
 
 footer{
