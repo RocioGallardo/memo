@@ -1438,13 +1438,10 @@ body {
 
 nav {
   background-color: #326be2; }
-
-.li-nav {
-  margin: 0px 10px;
-  font-size: 15px; }
-
-.lila {
-  color: #cac7f9; }
+  nav div ul .li-nav {
+    margin: 0px 10px;
+    font-size: 15px;
+    color: #cac7f9; }
 
 .redondeado {
   width: 70px;

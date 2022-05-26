@@ -17,16 +17,13 @@ body{
 
 nav{
     background-color: $color-azul;
-}
-
-.li-nav{
+    div ul .li-nav{
     margin:0px 10px;
     font-size: 15px;
+    color: $color-lila;
+    }
 }
 
-.lila{
-    color: $color-lila;
-}
 
 .redondeado{
     width: 70px;
